@@ -1,0 +1,81 @@
+.expense-list {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.filters,
+.sort-options {
+    margin-bottom: 20px;
+}
+
+.input {
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.expenses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.expense-card {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    position: relative;
+}
+
+.expense-card:hover {
+    transform: scale(1.05);
+}
+
+.edit-expense {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-input {
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 5px;
+    padding: 8px 12px;
+    background-color: #2e3843;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #8c69d4;
+}
+
+/* Color Classes */
+.card-color-1 {
+    background-color: #ffcccc; /* Red */
+}
+
+.card-color-2 {
+    background-color: #ccffcc; /* Green */
+}
+
+.card-color-3 {
+    background-color: #ccccff; /* Blue */
+}
+
+.card-color-4 {
+    background-color: #ffffcc; /* Yellow */
+}
+
+.loading-indicator {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #954922; /* You can change this to your preferred color */
+}
