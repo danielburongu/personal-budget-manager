@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/personal-budget-manager/static/css/main.9cabf3d5.css",
+    "main.js": "/personal-budget-manager/static/js/main.8101b1f0.js",
+    "index.html": "/personal-budget-manager/index.html",
+    "main.9cabf3d5.css.map": "/personal-budget-manager/static/css/main.9cabf3d5.css.map",
+    "main.8101b1f0.js.map": "/personal-budget-manager/static/js/main.8101b1f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cabf3d5.css",
+    "static/js/main.8101b1f0.js"
+  ]
+}
